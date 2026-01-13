@@ -19,7 +19,7 @@ fun main()
 
     val title:          String = "Food Delivery Service v$VERSION_NUM";
     val welcome:        String = "Welcome to Glasgow's finest food delivery service, where we provide you with swift instructions on where to deliver your food.\n";
-    val instruction:    String = "       Please deliver the food to:\n       %s\n".format(fullAddress?.uppercase());
+    val instruction:    String = "\t\tPlease deliver the food to:\n\t\t%s\n".format(fullAddress?.uppercase());
     val sloganDelivery: String = "Your hard work and commitment to delivering food are always appreciated, and never forget...%s.\n".format(SLOGAN.uppercase());
 
     val message:        String = "$title\n\n$welcome\n\n$instruction\n\n$sloganDelivery\n\n...Thank you.";
