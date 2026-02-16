@@ -6,7 +6,7 @@ abstract class Mission(protected val minion: Minion)
     {
         println(minion.catchphrase);
     }
-    
+
     fun start(listener: MissionListener): Unit
     {
         val time = determineMissionTime();
